@@ -87,5 +87,5 @@ Tidy <- TF %>%
             fBodyBodyGyroMagSTD = mean(fBodyBodyGyroMagSTD),
             fBodyBodyGyroJerkMagSTD = mean(fBodyBodyGyroJerkMagSTD))
 
-setwd(basedir)
+setwd("~/coursera/Get-and-clean/GAC-course-project/")
 write.table(Tidy, file = "Tidy.txt", row.name = F)
